@@ -1,0 +1,19 @@
+.novedades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 2px solid #000;
+}
+
+.img{
+    width: 70%;
+    height: 400px;
+}
+
+.holder h2{
+text-align: center;
+font-size: 50px;
+
+}

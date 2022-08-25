@@ -1,0 +1,105 @@
+.header {
+  background-color: transparent;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.nav-toggle i {
+  color: #3a0000;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  margin-left: 0px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 0px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+  background-color: rgb(199, 82, 4);
+  transition: 0.5s;
+  color: #000;
+}
+
+/* TOGGLE */
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+strong {
+  color: rgb(199, 82, 4);
+}
+
+.contenedor {
+  position: relative;
+  display: flex;
+}
+
+.texto-header {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  top: 40%;
+  color: #fff;
+  font-size: 50px;
+  text-shadow: #000 6px 6px 6px;
+  font-weight: 500;
+
+}
+
+
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}

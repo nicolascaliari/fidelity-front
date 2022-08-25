@@ -1,0 +1,108 @@
+.contenedor-servicios {
+  margin-bottom: 40px;
+}
+
+
+.div-servicios-h2 h2 {
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contenedor-tarjeta {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  max-width: 600px;
+  margin: auto;
+}
+
+.div-icono h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.div-lista-tarjeta {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  
+}
+ .contenedor-tarjeta {
+   height:360px;
+ }
+
+.contenedor-tarjeta2 {
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  max-width: 600px;
+  background-color: antiquewhite;
+  height: 394px;
+}
+
+.contenedor-tarjeta3 {
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  max-width: 600px;
+  background-color: antiquewhite;
+  height: 460px;
+}
+
+.div-lista-tarjeta li {
+  font-size: 17px;
+  padding: 5px;
+}
+
+.div-lista-tarjeta li {
+  list-style: none;
+}
+
+.icon {
+  color: rgb(68, 228, 68);
+}
+
+.div-btn {
+ margin: auto;
+
+}
+
+.btn {
+  background-color: #f06102;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+
+.texto-header {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  top: 40%;
+  color: #fff;
+  font-size: 50px;
+  text-shadow: #000 6px 6px 6px;
+
+}
+
+
+.strong {
+  color: #f06102;
+}
+
+.contenedor-texto-header{
+  width: 100%;
+}

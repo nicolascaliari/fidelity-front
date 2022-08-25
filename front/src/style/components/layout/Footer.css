@@ -1,0 +1,40 @@
+.contenedor-footer {
+    background-color: rgb(54, 42, 42);
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: #fff;
+    overflow: hidden;
+}
+
+.fidelity-footer-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.fidelity-footer-h2 h2 {
+    font-size: 40px;
+}
+
+
+.div-footer-span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+}
+
+.div-footer-span h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.div-footer-span span {
+    padding: 10px;
+    text-align: center;
+}
