@@ -20,6 +20,24 @@
     font-size: 40px;
 }
 
+@media (max-width: 885px) {
+    .contenedor-footer{
+        flex-direction: column;
+    }
+    
+    .div-footer-span h3{
+        font-size: 20px;
+    }
+    .fidelity-footer-h2{
+        padding: 10px;
+    }
+    .strong-footer{
+        font-size: 30px;
+    }
+    .span-contacto{
+        font-weight: 1000;
+    }
+}
 
 .div-footer-span {
     display: flex;

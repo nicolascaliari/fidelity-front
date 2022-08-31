@@ -5,7 +5,39 @@
   font-family: Nunito, sans-serif;
 }
 
-.darkmode {
-  background: #000 !important;
-  color: #fff !important;
+
+
+.li {
+  text-decoration: none;
 }
+.li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.link{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.nav {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+}
+
+h2{
+  color: #000;
+}
+span {
+  color: #000;
+}
+
+@media (max-width: 885px) {
+  .texto-header{
+    display: none;
+  }
+}  
+

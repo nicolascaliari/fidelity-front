@@ -8,8 +8,8 @@ function Footer() {
         <div className="contenedor-footer">
             <div className='fidelity-footer-h2'>
                 <h2>
-                    <strong className="strong-footer">FIDELITY CODE </strong> <br />
-                    DESARROLLO WEB
+                    <strong className="strong-footer">FIDELITY CODE </strong> 
+                    
                 </h2>
             </div>
 

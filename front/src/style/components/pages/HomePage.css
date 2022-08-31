@@ -10,7 +10,7 @@
     text-align: center;
     color: #000;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 500;
   }
   
   .tarjeta-skills {
@@ -48,4 +48,32 @@
     font-size: 50px;
     text-shadow: #000 6px 6px 6px;
   
+  }
+
+  /* adaptacion */
+
+  @media (max-width: 885px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+     
+    } 
+
+    .container img{
+     margin: 30px;
+    }
+    .container-skills{
+      height: 1330px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+    .container-skills-h2 h2{
+      margin-top: 100px;
+    }
   }

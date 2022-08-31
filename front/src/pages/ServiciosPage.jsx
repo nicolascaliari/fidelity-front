@@ -29,10 +29,11 @@ function ServiciosPage() {
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> APIS.</span></li>
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Formulario de contacto.</span></li>
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Contenido estático.</span></li>
-                </ul>
-                <div className='div-btn'>  
+                    <div className='div-btn'>  
                 <a className='btn' href='https://github.com/nicolascaliari/portafolio/blob/main/src/component/layout/Header.jsx'>Ver ejemplo</a>
                 </div>
+                </ul>
+                
             </div>
 
 
@@ -55,11 +56,12 @@ function ServiciosPage() {
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Formulario de contacto.</span></li>
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Contenido estático.</span></li>
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Ubicación de empresa/institución/etc.</span></li>
-                </ul>
-
-                <div className='div-btn'>  
+                    <div className='div-btn'>  
                 <a className='btn' href='https://github.com/nicolascaliari/portafolio/blob/main/src/component/layout/Header.jsx'>Ver ejemplo</a>
                 </div>
+                </ul>
+
+               
             </div>
 
 
@@ -84,13 +86,10 @@ function ServiciosPage() {
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Sección auto gestionable.</span></li>
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Formas de pago.</span></li>
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Ubicación de empresa/institución/etc.</span></li>
-                    
-                </ul>
-
-                <div className='div-btn'>  
+                    <div className='div-btn'>  
                 <a className='btn' href='https://github.com/nicolascaliari/portafolio/blob/main/src/component/layout/Header.jsx'>Ver ejemplo</a>
-                </div>
-
+                </div>                    
+                </ul>
 
             </div>
         </div>

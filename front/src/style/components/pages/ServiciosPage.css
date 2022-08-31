@@ -1,5 +1,5 @@
 .contenedor-servicios {
-  margin-bottom: 40px;
+margin-top: 30px;
 }
 
 
@@ -7,7 +7,7 @@
   color: #000;
   font-size: 40px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 30px;
 }
 
@@ -49,6 +49,7 @@
 .contenedor-tarjeta3 {
   margin: auto;
   margin-top: 30px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   border: 2px solid #000;
@@ -72,6 +73,7 @@
 
 .div-btn {
  margin: auto;
+ margin-top: 10px;
 
 }
 
@@ -105,4 +107,24 @@
 
 .contenedor-texto-header{
   width: 100%;
+}
+
+
+@media (max-width: 885px) {
+  .contenedor-tarjeta{
+    height: 430px;
+  }
+  .div-btn{
+    margin-top: 30px;
+  }
+
+  .contenedor-tarjeta2{
+    height: 470px;
+  }
+  .contenedor-tarjeta3{
+    height: 545px;
+  }
+  .div-servicios-h2{
+    margin-top: 20px;
+  }
 }
